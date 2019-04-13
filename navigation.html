@@ -1,0 +1,161 @@
+<html lang="en">
+
+    <head>
+        <title>website title</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, XML, JavaScript">
+        <meta name="author" content="Julian Wieckardt">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=html&amp;skin=default"></script>
+        <nav class="main">
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i>home</a></li>
+                <li><a href="navigation.html"><i class="fas fa-home"></i>navigation</a></li>
+                <li><a href="#"><i class="fas fa-home"></i></a></li>
+                <li><a href="#"><i class="fas fa-home"></i></a></li>
+                <li><a href="#"><i class="fas fa-home"></i></a></li>
+                <li><a href="#"><i class="fas fa-home"></i></a></li>
+                <li><a href="#"><i class="fas fa-home"></i></a></li>
+            </ul>
+        </nav>
+
+        <section class="page_Content">
+            <h1>Navigation</h1>
+
+            <p>This is a library filled with the code i use most often, structured by components</p>
+
+            <p><b>horizontal</b></p>
+            <div>
+                <nav id="nav_example_1">
+                    <ul>
+                        <li>link 1</li>
+                        <li>link 2</li>
+                        <li>link 3</li>
+                    </ul>
+                </nav>
+                <section class="code">
+                    <h2>html</h2>
+                    <pre class="prettyprint">
+                  < nav id="nav_example_1">
+                      < ul>
+                          < li>link 1</ li>
+                          < li>link 2</ li>
+                          < li>link 3</ li>
+                      < /ul>
+                  < /nav >
+</pre>
+                </section>
+
+                <section class="code">
+                    <h2>css</h2>
+
+                    <pre class="prettyprint">
+                  #nav_example_1 {
+                    position: relative;
+                    margin-top: 50px;
+                    height: auto;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    margin-bottom: 50px;
+                  }
+
+                  #nav_example_1 ul {
+                    background-color: #E4E4E4;
+                    padding: 0;
+                    margin: 0;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                    -ms-flex-direction: row;
+                    flex-direction: row;
+                    list-style-type: none;
+                    height: auto;
+                  }
+
+                  #nav_example_1 ul li {
+                    margin: 0;
+                    padding: 20px 40px;
+                    height: auto;
+                    color: black;
+                    font-weight: 800;
+                  }
+
+                  #nav_example_1 ul li:hover {
+                    background-color: #B8BAC2;
+                  }
+</pre>
+                </section>
+                <p><b>vertical</b></p>
+                <div>
+                    <nav id="nav_example_2">
+                        <ul>
+                            <li>link 1</li>
+                            <li>link 2</li>
+                            <li>link 3</li>
+                        </ul>
+                    </nav>
+                    <section class="code">
+                        <h2>html</h2>
+                        <pre class="prettyprint">
+                      < nav id="nav_example_2">
+                          < ul>
+                              < li>link 1</ li>
+                              < li>link 2</ li>
+                              < li>link 3</ li>
+                          < /ul>
+                      < /nav >
+    </pre>
+                    </section>
+
+                    <section class="code">
+                        <h2>css</h2>
+
+                        <pre class="prettyprint">
+                          #nav_example_2 {
+                            position: relative;
+                            margin-top: 50px;
+                            height: auto;
+                            display: flex;
+                            margin-bottom: 50px;
+
+                            ul {
+                              background-color: #E4E4E4;
+                              padding: 0;
+                              margin: 0;
+                              display: flex;
+                              flex-direction: column;
+                              list-style-type: none;
+                              height: auto;
+
+                              li {
+                                margin: 0;
+                                padding: 20px 40px;
+                                height: auto;
+                                color: black;
+                                font-weight: 800;
+
+                                &:hover {
+                                  background-color: #B8BAC2;
+                                }
+                              }
+                            }
+                          }
+    </pre>
+                    </section>
+        </section>
+
+
+
+
+    </body>
+
+</html>
