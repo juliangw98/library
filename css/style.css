@@ -6,7 +6,10 @@
 
 p {
   margin-top: 25px;
-  color: #324047; }
+  color: #EFEFEF; }
+
+h1, h2, h3, h4 {
+  color: #EFEFEF; }
 
 .main {
   height: 100vh;
