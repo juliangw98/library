@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,600,700');
 
 $primaryColor: white;
+$darkest:#2D3385;
 $color1:#FE752F;
 $color2:#2D3385;
 $color3:#3444B9;
@@ -10,7 +11,9 @@ $color3:#3444B9;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
-
+body{
+  background-color:$darkest
+}
 p {
   margin-top: 25px;
 }
