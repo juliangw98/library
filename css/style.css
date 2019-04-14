@@ -5,7 +5,8 @@
   font-family: 'Montserrat', sans-serif; }
 
 p {
-  margin-top: 25px; }
+  margin-top: 25px;
+  color: white; }
 
 .main {
   height: 100vh;
