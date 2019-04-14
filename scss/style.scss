@@ -12,7 +12,6 @@ $color3:#3444B9;
   font-family: 'Montserrat', sans-serif;
 }
 body{
-  background-color:$darkest
 }
 p {
   margin-top: 25px;
@@ -65,6 +64,9 @@ p {
 .page_Content {
   margin-left: 5%;
   padding: 50px;
+  background-color:$darkest;
+
+
 }
 
 #intro {

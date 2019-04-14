@@ -4,9 +4,6 @@
   margin: 0;
   font-family: 'Montserrat', sans-serif; }
 
-body {
-  background-color: #2D3385; }
-
 p {
   margin-top: 25px; }
 
@@ -67,7 +64,8 @@ p {
 
 .page_Content {
   margin-left: 5%;
-  padding: 50px; }
+  padding: 50px;
+  background-color: #2D3385; }
 
 #intro {
   display: -webkit-box;
