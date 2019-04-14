@@ -6,15 +6,15 @@
 
 p {
   margin-top: 25px;
-  color: #EFEFEF; }
+  color: #ACB2BE; }
 
 h1, h2, h3, h4 {
-  color: #EFEFEF; }
+  color: #ACB2BE; }
 
 .main {
   height: 100vh;
   position: fixed;
-  background-color: #00CECE; }
+  background-color: #22252B; }
   .main ul {
     padding-top: 50px;
     display: -webkit-box;
@@ -31,7 +31,7 @@ h1, h2, h3, h4 {
     -ms-flex-align: center;
     align-items: center;
     list-style-type: none;
-    color: #00A8A8;
+    color: #C89A6A;
     height: 80%;
     padding-left: 10px;
     padding-right: 10px; }
@@ -61,7 +61,7 @@ h1, h2, h3, h4 {
         align-items: center;
         text-decoration: none; }
         .main ul li a:hover {
-          color: #EFEFEF; }
+          color: #ACB2BE; }
         .main ul li a i {
           font-size: 30px;
           margin-bottom: 10px; }
@@ -69,7 +69,7 @@ h1, h2, h3, h4 {
 .page_Content {
   margin-left: 5%;
   padding: 50px;
-  background-color: #324047; }
+  background-color: #292C34; }
 
 #intro {
   display: -webkit-box;
