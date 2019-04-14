@@ -69,7 +69,8 @@ h1, h2, h3, h4 {
 .page_Content {
   margin-left: 5%;
   padding: 50px;
-  background-color: #292C34; }
+  background-color: #292C34;
+  min-height: 100vh; }
 
 #intro {
   display: -webkit-box;
