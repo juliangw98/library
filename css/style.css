@@ -10,7 +10,7 @@ p {
 .main {
   height: 100vh;
   position: fixed;
-  background-color: #6F7AE6; }
+  background-color: #2D3385; }
   .main ul {
     padding-top: 50px;
     display: -webkit-box;
@@ -27,7 +27,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     list-style-type: none;
-    color: white;
+    color: #3444B9;
     height: 80%;
     padding-left: 10px;
     padding-right: 10px; }
@@ -57,7 +57,7 @@ p {
         align-items: center;
         text-decoration: none; }
         .main ul li a:hover {
-          color: #7784FF; }
+          color: #FE752F; }
         .main ul li a i {
           font-size: 30px;
           margin-bottom: 10px; }
