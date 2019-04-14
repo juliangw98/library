@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,600,700');
 
-$primaryColor: white;
-$darkest:#2D3385;
-$color1:#FE752F;
-$color2:#2D3385;
-$color3:#3444B9;
+$primaryColor: #324047;
+$text:#EFEFEF;
+$color1:#00CECE;
+$color2:#00A8A8;
 
 * {
   padding: 0;
@@ -23,7 +22,7 @@ p {
   // width: %;
   height: 100vh;
   position: fixed;
-  background-color: $color2;
+  background-color: $color1;
 
   ul {
     padding-top: 50px;
@@ -32,7 +31,7 @@ p {
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
-    color: $color3;
+    color: $color2;
     height: 80%;
     padding-left: 10px;
     padding-right: 10px;
@@ -51,7 +50,7 @@ p {
         text-decoration: none;
 
         &:hover {
-          color: $color1;
+          color: $text;
         }
 
         i {
@@ -66,7 +65,7 @@ p {
 .page_Content {
   margin-left: 5%;
   padding: 50px;
-  background-color:$darkest;
+  background-color:$primaryColor;
 
 
 }

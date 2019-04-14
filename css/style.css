@@ -6,12 +6,12 @@
 
 p {
   margin-top: 25px;
-  color: white; }
+  color: #324047; }
 
 .main {
   height: 100vh;
   position: fixed;
-  background-color: #2D3385; }
+  background-color: #00CECE; }
   .main ul {
     padding-top: 50px;
     display: -webkit-box;
@@ -28,7 +28,7 @@ p {
     -ms-flex-align: center;
     align-items: center;
     list-style-type: none;
-    color: #3444B9;
+    color: #00A8A8;
     height: 80%;
     padding-left: 10px;
     padding-right: 10px; }
@@ -58,7 +58,7 @@ p {
         align-items: center;
         text-decoration: none; }
         .main ul li a:hover {
-          color: #FE752F; }
+          color: #EFEFEF; }
         .main ul li a i {
           font-size: 30px;
           margin-bottom: 10px; }
@@ -66,7 +66,7 @@ p {
 .page_Content {
   margin-left: 5%;
   padding: 50px;
-  background-color: #2D3385; }
+  background-color: #324047; }
 
 #intro {
   display: -webkit-box;
