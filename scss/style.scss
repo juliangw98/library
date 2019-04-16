@@ -1,26 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,600,700');
-
 $primaryColor: #292C34;
-$text:#ACB2BE;
-$color1:#22252B;
-$color2:#C89A6A;
+$text: #ACB2BE;
+$color1: #22252B;
+$color2: #C89A6A;
 
 * {
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+}
 
-}
-body{
-}
+body {}
+
 p {
   margin-top: 25px;
-  color:$text;
+  color: $text;
 }
-h1,h2,h3,h4{
-  color:$text;
 
+h1,
+h2,
+h3,
+h4 {
+  color: $text;
 }
+
 .main {
   // width: %;
   height: 100vh;
@@ -68,16 +71,25 @@ h1,h2,h3,h4{
 .page_Content {
   margin-left: 5%;
   padding: 50px;
-  background-color:$primaryColor;
+  background-color: $primaryColor;
   min-height: 100vh;
-
-
 }
 
 #intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 587px;
+  justify-self: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  text-align: center;
+  h1{
+    font-size: 50px;
+    color: white;
+  }
 }
 
 #nav_example_1 {
@@ -109,6 +121,7 @@ h1,h2,h3,h4{
     }
   }
 }
+
 #nav_example_2 {
   position: relative;
   margin-top: 50px;
@@ -138,5 +151,7 @@ h1,h2,h3,h4{
     }
   }
 }
-.code{
-margin-top: 50px;}
+
+.code {
+  margin-top: 50px;
+}

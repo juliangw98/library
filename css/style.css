@@ -8,7 +8,10 @@ p {
   margin-top: 25px;
   color: #ACB2BE; }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   color: #ACB2BE; }
 
 .main {
@@ -82,7 +85,19 @@ h1, h2, h3, h4 {
   flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  width: 587px;
+  justify-self: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  text-align: center; }
+  #intro h1 {
+    font-size: 50px;
+    color: white; }
 
 #nav_example_1 {
   position: relative;
